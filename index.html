@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+       
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <span class="logo">
+                <img src="logo.svg">
+            </span>
+            <span class="hr">
+            <hr>
+            <ul>
+                <li><a href="https://shreyashpatel5506.github.io/spacetourism/">00 HOME</a></li>
+                <li><a  class="active" href="https://shreyashpatel5506.github.io/destination/">01 DESTINATION</a></li>
+                <li><a href="https://shreyashpatel5506.github.io/crew/">02 CREW</a></li>
+                <li><a href="https://shreyashpatel5506.github.io/technology/">03 TECHNOLOGY</a></li>
+            </ul>
+            </span>
+            <span>
+                <img src="icon-hamburger.svg" id="imgmenu" class="hamburger" onclick="menuh()">
+            </span>
+        </nav>
+        <div class="mobilemenu" id="ham">
+            <ul style="list-style-type: none;">
+                <li><a href="https://shreyashpatel5506.github.io/spacetourism/">00 HOME</a></li>
+                <li><a  href="https://shreyashpatel5506.github.io/destination/">01 DESTINATION</a></li>
+                <li><a href="https://shreyashpatel5506.github.io/crew/">02 CREW</a></li>
+                <li><a href="https://shreyashpatel5506.github.io/technology/">03 TECHNOLOGY</a></li>
+            </ul>
+       </div>
+        <div class="choice"><p style="color:rgb(130, 130, 130)">01</p> Pick your destination</div>
+        <div class="main">
+            <div class="planet">
+                <img src="image-moon.png" alt="MOON" id="planetimage">
+            </div>
+            <div class="detail">
+                <div class="menu">
+                    <ul>
+                        <li><button onclick="moon()">MOON</button></li>
+                        <li><button onclick="mars()">MARS</button></li>
+                        <li><button onclick="europa()">EUROPA</button></li>
+                        <li><button onclick="titan()">TITAN</button></li>
+                    </ul>
+                </div>
+                <h1 class="title" id="name">MOON</h1>
+                <p class="description" id="texts">
+                    See our planet as you've never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you're there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.
+                </p>
+                <div class="more">
+               <span>
+                <p>AVG. DISTANCE</p>
+                <p class="DISTANCE" id="DISTANCEmeasure">384,400KM</p>
+               </span> 
+               <span>
+                <p>EST. TRAVEL TIME</p>
+                <p class="DAYS" id="time">3 DAYS</p>
+               </span>
+               </div>
+            </div>
+        </div>
+        <script src="index.js" async defer>
+             </script>
+    </body>
+</html>
